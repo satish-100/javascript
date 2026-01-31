@@ -279,3 +279,31 @@
 // const r = capitalize(str)
 // console.log(r)
 
+
+// const longestSubstring = (s) => {
+//   let set = new Set()
+//   let left = 0
+//   let maxLen = 0
+//   let start = 0
+
+//   for (let right = 0; right < s.length; right++) {
+//     while (set.has(s[right])) {
+//       set.delete(s[left])
+//       left++
+//     }
+
+//     set.add(s[right])
+
+//     if (right - left + 1 > maxLen) {
+//       maxLen = right - left + 1
+//       start = left
+//     }
+//   }
+
+//   return s.slice(start, start + maxLen)
+// }
+
+// const str = "abcabcbb"
+// console.log(longestSubstring(str))
+
+
