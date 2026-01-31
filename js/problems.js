@@ -306,4 +306,27 @@
 // const str = "abcabcbb"
 // console.log(longestSubstring(str))
 
+// const arr = [2, 1, 5, 1, 3, 2]
+// const k = 3
+// const f1 = (arr, k) => {
+//   let sum = 0
+//   for (let i = 0; i < k; i++) {
+//     sum += arr[i]
+//   }
+//   let result = sum
+//   let start = 0
+//   for (let i = k; i < arr.length; i++) {
+//     sum += arr[i]
+//     sum -= arr[i - k]
+
+//     if (sum > result) {
+//       result = sum
+//       start = i - k + 1
+//     }
+//   }
+//   return arr.slice(start, start + k)
+// }
+// console.log(f1(arr, k))
+
+
 
